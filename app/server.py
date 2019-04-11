@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/file/d/1pZebXsqgQOgG8aIXBRD_NHRZOkUVBuEe/view?usp=sharing'
+export_file_name = 'dry_fruits_resnet50.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['almond','cashew','date', 'walnut', 'pistachio', 'apricot']
 path = Path(__file__).parent
 
 app = Starlette()
